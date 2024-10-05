@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neucha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container-navbar">
+        <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#academic-experience" class="nav-link">Academic Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <!-- Home Section -->  
+
+    <section id="home">
+        <div class="container home">
+            <h1>Hi, I'm Madalina.</h1>
+            <img class="explorer" src="./assets/explorer.png" alt="explorer looking at code symbol" /> 
+            <h2>A new explorer in the web developing world</h2>           
+        </div>
+     </section>
+    
+    <!-- About me Section -->
+
+    <section id="about-me"> 
+        <div class="container about-me">
+            <h2>Behind the code</h2>
+            <img src="./assets/profile.jpg" alt="profile picture" />
+            <p>I am a full-time engineering student who takes advantage of the most limited resource there is: time. Yes, I do struggle, sometimes <b>really</b> hard, but that's the thing that pushes and helps me evolve the most. The last "struggle" I had lately is Web Developing, so I invite you to take a look at my work so far. Who knows, maybe we'll collab one day!</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+        <div class="container projects">
+            <h2>My Projects</h2>
+            <p>Here are some of my projects that were made during a Web Dev course from The App Brewery</p>
+            <div class="container project-images">
+                <a href="https://madalina-tuturman.github.io/My-Resume/"><img src="./assets/Laptop.png" alt="laptop displaying a project" /></a>
+                <a href="https://madalina-tuturman.github.io/mondrian-project/"><img src="./assets/Framed_Picture.png" alt="framed picture with a project" /></a>
+                <a href="https://madalina-tuturman.github.io/tindog-project/"><img class="frame" src="./assets/Smartphone.png" alt="smartphone displaying a project" /></a>
+                <p>Capstone Resume</p>
+                <p>Mondrian Painting</p>
+                <p>Tindog Project</p>
+            </div>        
+        </div>    
+    </section>      
+
+            
+    <!-- Academic Experience -->    
+
+    <section id="academic-experience">
+        <div class="container academic-experience">
+            <h2>Academic Experience</h2>
+            <p>I've been a student at Politehnica University from Bucharest since October 2022. During these two years I've worked with multimple programming languages and tools, from which I mention:</p>
+            <div class="tools">
+                <div class="c">
+                    <h3>C and C++</h3>
+                    <p>Developed software using C and C++ at an intermediate level, focusing on Object-Oriented Programming and Data Structures and Algorithms for various projects.</p>
+                </div>
+
+                <div class="assembly">
+                    <h3>Assembly</h3>
+                    <p>Programmed in Assembly with emulator8086 and worked with 8051 microcontrollers for embedded system applications.</p>
+                </div>
+                <div class="html-css">
+                    <h3>HTML and CSS</h3>
+                    <p>I have intermediate to advanced skills in HTML and CSS, which I used to create multiple and various projects, this webpage included.</p>
+                </div>
+                <div class="verilog">
+                    <h3>Verilog</h3>
+                    <p>Designed and tested digital circuits using Verilog for FPGA-based projects. Created and implemented elementary combinational circuits, sequential circuits, and finite state machines.</p>
+                </div>
+                <div class="orcad">
+                    <h3>OrCAD</h3>
+                    <p>Designed and simulated various electronic components using OrCAD, including amplifiers and voltage regulators.</p>
+                </div>
+                <div class="matlab">
+                    <h3>MATLAB</h3>
+                    <p>Worked with MATLAB for signal processing and data analysis tasks at an intermediate level.</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+      <!-- Contact !-->
+
+      <section id="contact">
+        <div class="container contact">
+            <h2>Reach out to me</h2>
+            <p>Let's create together!</p>
+            <div class="buttons">
+                <a href="mailto: m.tuturman@gmail.com">
+                    <button class="button">
+                        <svg data-name="1-Email" xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 32 32">
+                        <path d="M29 4H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h26a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-.72 2L16 14.77 3.72 6zM30 25a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.23l13.42 9.58a1 1 0 0 0 1.16 0L30 7.23z"/>
+                        </svg>
+                        Send me a mail
+                    </button>
+                </a>
+                <a href="https://www.instagram.com/madalina.tuturman/">
+                    <button class="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="50" viewBox="0 0 24 24">
+                        <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                        </svg>
+                        Follow Me
+                    </button>
+                </a>
+            </div>    
+        </div>
+    </section>
+
+    <section id="footer">
+        <footer>© 2024 Madalina Tuturman</footer>
+    </section>
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
